@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use Stancl\Tenancy\Database\Models\Domain;
+use App\Models\Domain;
 use App\Models\Tenant;
 
 return [
@@ -19,6 +19,7 @@ return [
     'central_domains' => [
         '127.0.0.1',
         'localhost',
+        "landlord.test"
     ],
 
     /**
